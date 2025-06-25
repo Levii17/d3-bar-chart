@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f8f9fa;
+}
+  
+#chart {
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+  
+.bar {
+    fill: steelblue;
+}
+
+.bar:hover {
+    fill: orange;
+}
+  
+#tooltip {
+    position: absolute;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 4px;
+    pointer-events: none;
+    font-size: 0.9em;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+    font-size: 0.9rem;
+}
+  
+footer a {
+    color: #00bcd4;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+  
+footer a:hover {
+    color: #fff;
+}
+  
+.social-links {
+    margin-top: 10px;
+}
+  
+  
